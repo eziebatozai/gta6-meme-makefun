@@ -27,7 +27,7 @@ Requires Node.js 22.18+. Offline by construction: the program touches only
 | File | Purpose |
 |---|---|
 | `main.ts` | PNG encoder (zlib + CRC-32), 5×7 bitmap font, canvas, 16 meme scenes |
-| `captions.json` | The X captions; `{code}` = my make.fun play code |
+| `captions.json` | The X captions — each carries the bounty play code and bounty link |
 | `images/` | The rendered memes |
 | `POST.json` | The X post address (filled after posting) |
 
